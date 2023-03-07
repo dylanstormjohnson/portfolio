@@ -4,7 +4,7 @@ My portfolio!
 Image
 
 Here is an image of the completed website:
-![The Horiseon Webpage in full, showing its many elements, including its navigation bar, heading image, and informational sections.](./assets/images/Horiseon-Website-Full-Page-Screenshot.png)
+![The Horiseon Webpage in full, showing its many elements, including its navigation bar, heading image, and informational sections.](./assets/images/Portfolio_Full_Page_Screenshot.pdf)
 
 Description
     - what
