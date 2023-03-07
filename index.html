@@ -1,52 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Storm</h1>
-        <nav>
-            <a>About Me</a>
-            <a>Work</a>
-            <a>Contact Me</a>
-            <a>Resume</a>
-        </nav>
+      <h1>Storm</h1>
+      <nav>
+
+            <a href="#aboutMe">About Me</a>
+            <a href="#work">Work</a>
+            <a href="#contactMe">Contact Me</a>
+            <a href="#resume" download>Resume</a>
+
+      </nav>
     </header>
 
     <div class="hero">
+      <img
+        src="./assets/images/Docks_v2.jpg"
+        alt="Docks"
+        width="1000"
+        height="400"
+      />
+      <div class="quoteCard">
+        <p>
+          “If a ship is strong, the ocean's tides do not bother it.” <br />―
+          Matshona Dhliwayo
+        </p>
+      </div>
     </div>
 
     <main>
-        <section>
-            <h2>About Me</h2>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit alias id, quod voluptates itaque voluptate harum velit laboriosam deleniti illum facere quam ad eaque minus quasi totam, sed sequi.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima suscipit alias id, quod voluptates itaque voluptate harum velit laboriosam deleniti illum facere quam ad eaque minus quasi totam, sed sequi.
-                </p>
-            </div>
-        </section>
-        <section>
-            <h2>Work</h2>
-            <div>
-                5 divs here
-            </div>
-        </section>
-        <section>
-            <h2>Contact Me</h2>
-            <div>
-                contact info here
-            </div>
-        </section>
+      <section>
+        <h2 id="aboutMe">About Me</h2>
+        <div>
+          <p>
+            My name is Dylan Storm Johnson. I have studied animation,
+            programming (HTML/CSS/JavaScript), and Japanese. I like to draw and
+            create things, making them visually interesting or evoking of
+            paticular moods.
+          </p>
+          <p>
+            If hired, I will work diligently to not only meet, but exceed the
+            parameters of the tasks I'm entrusted with. In Colossians 3:23
+            (NIV), Paul advised us: "Whatever you do, work at it with all your
+            heart, as working for the Lord, not for human masters,..." It is for
+            this reason I will work to accomplish the tasks given to me in such
+            a way as to honor the Lord as a hard worker.
+          </p>
+        </div>
+      </section>
+      <section class="work-list">
+        <h2 id="work">Work</h2>
+        <div class="card-container">
+          <div class="card big-card">
+            <img src="./assets/images/Wave.jpg" alt="Wave" />
+          </div>
+          <div class="card">
+            <img src="./assets/images/LED_Wall.jpg" alt="LED_Wall" />
+          </div>
+          <div class="card">
+            <img src="./assets/images/Calculator.jpg" alt="Calculator" />
+          </div>
+          <div class="card">
+            <img src="./assets/images/Chalk_Pastel_Puzzels.jpg" alt="Chalk" />
+          </div>
+          <div class="card">
+            <img src="./assets/images/Trail_Run_Buddy_v2.jpg" alt="Trail" />
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 id="contactMe">Contact Me</h2>
+        <div class="contactinfo">
+          <a href="">555.555.5555</a>
+          <a href="mailto:anonymousindividual@misnomer.null"
+            >anonymousindividual@misnomer.null</a
+          >
+          <a href="https://github.com/dylanstormjohnson?tab=repositories"
+            >GitHub</a
+          >
+          <a href="https://twitter.com/?lang=en">Twitter</a>
+          <a href="https://open.spotify.com/">Spotify</a>
+        </div>
+      </section>
     </main>
-</body>
 
+    <footer>
+      <h1>Thank you for considering me!</h1>
+    </footer>
+  </body>
 </html>
